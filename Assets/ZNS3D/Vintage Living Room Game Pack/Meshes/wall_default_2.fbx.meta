@@ -1,9 +1,21 @@
 fileFormatVersion: 2
 guid: 38a08d4ce1854664e9cf94eb6ad04d41
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314464
+  packageName: VINTAGE LIVING ROOM 3D GAME PACK
+  packageVersion: 1.0
+  assetPath: Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_default_2.fbx
+  uploadId: 741990
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Walls_2.002
+    second: {fileID: 2100000, guid: d723d7cfb5de70b4e86e392d08c887ec, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -16,8 +28,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -107,10 +117,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 314464
-  packageName: VINTAGE LIVING ROOM 3D GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_default_2.fbx
-  uploadId: 741990

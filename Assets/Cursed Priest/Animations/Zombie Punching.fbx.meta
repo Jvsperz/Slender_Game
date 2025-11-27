@@ -1,21 +1,9 @@
 fileFormatVersion: 2
-guid: 8063a0476043b104e9bacda46371fce0
-AssetOrigin:
-  serializedVersion: 1
-  productId: 314464
-  packageName: VINTAGE LIVING ROOM 3D GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner_double.fbx
-  uploadId: 741990
+guid: f352516c38c91d04fa96cce1777925e6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mat_Walls_2.001
-    second: {fileID: 2100000, guid: b42144a43ecdba04f9988fc263d9e80f, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
