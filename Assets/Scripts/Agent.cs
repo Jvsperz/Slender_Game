@@ -3,11 +3,17 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.InputSystem.Android;
 
+
 [RequireComponent(typeof(NavMeshAgent))]
 
 
 public class Agent : MonoBehaviour
 {
+
+
+   
+
+
     public LayerMask groundMask;
     NavMeshAgent agent;
     public GameObject Player;
