@@ -9,11 +9,6 @@ using UnityEngine.InputSystem.Android;
 
 public class Agent : MonoBehaviour
 {
-
-
-   
-
-
     public LayerMask groundMask;
     NavMeshAgent agent;
     public GameObject Player;
