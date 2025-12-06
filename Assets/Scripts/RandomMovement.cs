@@ -20,7 +20,7 @@ public class RandomMovement : MonoBehaviour
 
     void Update()
     {
-        if (agent.remainingDistance <= agent.stoppingDistance) //done with path
+        if (agent.remainingDistance <= agent.stoppingDistance) //done with path 
         {
             Vector3 point;
             if (RandomPoint(centrePoint.position, range, out point)) //pass in our centre point and radius of area
