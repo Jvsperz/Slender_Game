@@ -19,6 +19,8 @@ public class EnemyAI : MonoBehaviour
     public Vector3 rayCastOffset;
     public string deathScene;
 
+    public GameObject camera;
+
     void Start()
     {
         walking = true;
@@ -99,7 +101,10 @@ public class EnemyAI : MonoBehaviour
     }
     IEnumerator deathRoutine()
     {
+        camera.SetActive(true);
         yield return new WaitForSeconds(jumpscareTime);
-        SceneManager.LoadScene(deathScene);
+        
+        SceneManager.LoadScene(0);
+          
     }
 }

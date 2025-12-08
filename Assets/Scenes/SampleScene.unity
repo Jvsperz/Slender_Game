@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.024
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientSkyColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -35,7 +35,7 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0.065
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_UseRadianceAmbientProbe: 0
@@ -93,8 +93,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: f32ee2d22e5d5964eb282a92415394f0, type: 2}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: ab2b88b763cd02a4b94284e391c5b18e, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: edfd15f4aacc87c45aeac6f67bc1ced2, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -115353,11 +115353,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 1
   m_ObstacleAvoidanceType: 4
---- !u!95 &2051530197 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 7232730286969761241, guid: 6924745a509f7b746bc74f3d4548b1aa, type: 3}
-  m_PrefabInstance: {fileID: 716012878}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2051530198 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 780761152700154019, guid: 6924745a509f7b746bc74f3d4548b1aa, type: 3}
@@ -115390,24 +115385,30 @@ MonoBehaviour:
   - {fileID: 84912390}
   - {fileID: 786169245}
   - {fileID: 2098782320}
-  aiAnim: {fileID: 2051530197}
-  walkSpeed: 2.9
-  chaseSpeed: 4.078
+  aiAnim: {fileID: 2051530200}
+  walkSpeed: 2.8
+  chaseSpeed: 4.2
   minIdleTime: 1
-  maxIdleTime: 2
+  maxIdleTime: 3
   idleTime: 0
-  sightDistance: 6.52
-  catchDistance: 3
+  sightDistance: 6.23
+  catchDistance: 2
   chaseTime: 0
-  minChaseTime: 4
-  maxChaseTime: 7
-  jumpscareTime: 0
+  minChaseTime: 5
+  maxChaseTime: 12
+  jumpscareTime: 3
   walking: 0
   chasing: 0
   player: {fileID: 2011698081}
-  destinationAmount: 13
+  destinationAmount: 0
   rayCastOffset: {x: 0, y: 0, z: 0}
   deathScene: SampleScene
+  camera: {fileID: 486499225}
+--- !u!95 &2051530200 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7232730286969761241, guid: 6924745a509f7b746bc74f3d4548b1aa, type: 3}
+  m_PrefabInstance: {fileID: 716012878}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2053811228
 PrefabInstance:
   m_ObjectHideFlags: 0

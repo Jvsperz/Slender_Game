@@ -21,7 +21,7 @@ public class Agent : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    void Update ()
     {
         agent.SetDestination(Player.transform.position); 
     }
