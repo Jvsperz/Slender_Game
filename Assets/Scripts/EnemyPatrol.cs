@@ -1,7 +1,6 @@
 using UnityEngine;
 using Unity.VisualScripting;
 using UnityEngine.AI;
-using UnityEngine.InputSystem.Android;
 
 [RequireComponent(typeof(NavMeshAgent))]
 
