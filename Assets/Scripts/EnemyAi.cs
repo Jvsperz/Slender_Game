@@ -20,6 +20,8 @@ public class EnemyAI : MonoBehaviour
     public string deathScene;
 
     public GameObject camera;
+    
+   
 
     void Start()
     {
@@ -103,8 +105,9 @@ public class EnemyAI : MonoBehaviour
     {
         camera.SetActive(true);
         yield return new WaitForSeconds(jumpscareTime);
-        
+
         SceneManager.LoadScene(0);
-          
+
     }
+
 }
