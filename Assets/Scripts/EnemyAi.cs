@@ -18,6 +18,7 @@ public class EnemyAI : MonoBehaviour
     public int destinationAmount;
     public Vector3 rayCastOffset;
     public string deathScene;
+    public AudioSource jumpscare;
 
     public GameObject camera;
     
@@ -104,6 +105,7 @@ public class EnemyAI : MonoBehaviour
     IEnumerator deathRoutine()
     {
         camera.SetActive(true);
+        jumpscare.Play();
         yield return new WaitForSeconds(jumpscareTime);
 
         SceneManager.LoadScene(0);
